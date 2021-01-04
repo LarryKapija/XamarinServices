@@ -9,13 +9,12 @@ In this repository I'll be creating an application that will contain:
 
 ## Dependency service evidence:
 ![Dependency](https://github.com/LarryKapija/XamarinServices/blob/main/Evidences/Dependency.gif)
-----------------------------------------
+
 ##Custom renderer:
 ![Renderer](https://github.com/LarryKapija/XamarinServices/blob/main/Evidences/Renderer.gif)
-----------------------------------------
+
 ##Focused Effect:
 ![Effects](https://github.com/LarryKapija/XamarinServices/blob/main/Evidences/Effects.gif)
-----------------------------------------
+
 ##Two platform specifics:
 ![Platform](https://github.com/LarryKapija/XamarinServices/blob/main/Evidences/Platform.gif)
-----------------------------------------
