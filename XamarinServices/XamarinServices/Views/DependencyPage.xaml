@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinServices.Views.DependencyPage"
+             
+              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             Title="Dependency">
+    
+    
+    <Grid ColumnDefinitions="*,*" RowDefinitions="10*,5*,10*" Padding="20,0">
+        
+        <Label Grid.ColumnSpan="2" 
+               Text="{Binding POrientation}" 
+               FontSize="Header" 
+               VerticalOptions="End"
+               HorizontalOptions="CenterAndExpand"/>
+        
+        <Button Grid.Row="1"
+                Grid.ColumnSpan="2"
+                Text="Orientation" 
+                Command="{Binding OrientationCommand}"
+                android:Button.UseDefaultPadding="True"
+                android:Button.UseDefaultShadow="False"
+                
+        />
+
+    </Grid>
+
+</ContentPage>

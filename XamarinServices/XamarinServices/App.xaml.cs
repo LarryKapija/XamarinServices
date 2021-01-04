@@ -1,28 +1,33 @@
-﻿using System;
+﻿using Prism;
+using Prism.Ioc;
+using Prism.Unity;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinServices.Constants;
+using XamarinServices.ViewModels;
+using XamarinServices.Views;
 
 namespace XamarinServices
 {
-    public partial class App : Application
+    public partial class App : PrismApplication
     {
-        public App()
+        public App(IPlatformInitializer platformInitializer) : base(platformInitializer)
         {
-            InitializeComponent();
-
-            MainPage = new MainPage();
+            InitializeComponent( );
         }
 
-        protected override void OnStart()
+        protected override async void OnInitialized()
         {
+            await NavigationService.NavigateAsync(Pages.Tabbed);
         }
 
-        protected override void OnSleep()
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-        }
-
-        protected override void OnResume()
-        {
+            containerRegistry.RegisterForNavigation<MyTabbedPage>(Pages.Tabbed);
+            containerRegistry.RegisterForNavigation<DependencyPage, DependencyViewModel>(Pages.Dependency);
+            containerRegistry.RegisterForNavigation<RendererPage,RendererViewModel>(Pages.Renderer);
+            containerRegistry.RegisterForNavigation<EffectPage, EffectViewModel>(Pages.Renderer);
         }
     }
 }
