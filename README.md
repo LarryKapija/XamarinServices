@@ -8,16 +8,16 @@ In this repository I'll be creating an application that will contain:
 4. [Two platform specifics.](#two-platform-specifics:)
 
 ## Dependency service evidence:
-![Dependency](https://github.com/LarryKapija/XamarinServices/blob/main/Evidences/Dependency.gif)
+![Dependency](https://github.com/LarryKapija/XamarinServices/blob/main/Evidences/Dependency.gif).
 
 
 ##Custom renderer:
-![Renderer](https://github.com/LarryKapija/XamarinServices/blob/main/Evidences/Renderer.gif)
+![Renderer](https://github.com/LarryKapija/XamarinServices/blob/main/Evidences/Renderer.gif).
 
 
 ##Focused Effect:
-![Effects](https://github.com/LarryKapija/XamarinServices/blob/main/Evidences/Effects.gif)
+![Effects](https://github.com/LarryKapija/XamarinServices/blob/main/Evidences/Effects.gif).
 
 
 ##Two platform specifics:
-![Platform](https://github.com/LarryKapija/XamarinServices/blob/main/Evidences/Platform.gif)
+![Platform](https://github.com/LarryKapija/XamarinServices/blob/main/Evidences/Platform.gif).
